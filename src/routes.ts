@@ -1,7 +1,10 @@
 import { Router } from "express";
-import { CreateUserControler } from "./controllers/CreateUserController";
+import { CreateUserController } from "./controllers/CreateUserController";
+import { CreateTagController } from "./controllers/CreateTagController";
 
 const router = Router();
-const createUserControler = new CreateUserControler
-router.post("/users",createUserControler.handle);
+const createUserController = new CreateUserController();
+const createTagController = new CreateTagController();
+router.post("/users",createUserController.handle);
+router.post("/tags",createTagController.handle);
 export { router };
