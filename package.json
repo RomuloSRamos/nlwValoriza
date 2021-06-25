@@ -1,14 +1,14 @@
 {
   "name": "nlwValoriza",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Projeto desenvolvido durante a NLW6",
+  "main": "server.ts",
   "scripts": {
     "dev": "ts-node-dev src/server.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Romulo S. Ramos",
   "license": "ISC",
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "class-transformer": "^0.4.0",
     "express": "^4.17.1",
     "express-async-errors": "^3.1.1",
     "jsonwebtoken": "^8.5.1",

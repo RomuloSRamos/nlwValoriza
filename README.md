@@ -16,11 +16,11 @@
 
 - Cadastro de elogios
 
-    [ ] Não é permitido um usuário cadastrar um elogio pra si
+    [ x ] Não é permitido um usuário cadastrar um elogio pra si
 
-    [ ] Não é permiti cadastrar elogios para usuáios invalidos
+    [ x ] Não é permiti cadastrar elogios para usuáios invalidos
     
-    [ ] O susário precisa está logado na alicação
+    [ x ] O susário precisa está logado na alicação
 
 
     

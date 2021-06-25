@@ -6,7 +6,7 @@ import {
   UpdateDateColumn,
 } from "typeorm";
 import { v4 as uuid } from "uuid";
-
+import {Expose} from "class-transformer"
 @Entity("tags")
 class Tag {
   @PrimaryColumn()
@@ -17,6 +17,11 @@ class Tag {
   created_at: Date;
   @UpdateDateColumn()
   updated_at: Date;
+  // https://github.com/typestack/class-transformer
+  @Expose({name:"name_custom"})
+  nameCustom():string{
+    return `#${this.name}`
+  }
   constructor() {
     if (!this.id) {
       this.id = uuid();
