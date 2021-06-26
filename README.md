@@ -94,7 +94,7 @@ Aqui estão algumas dicas:
 * Pedidos de novas Features são bem-vindos! Forneça alguns detalhes sobre por que seria útil para você e outras pessoas, explique como você está usando o **nlwValoriza** e, se possível, até mesmo algumas capturas de tela!
 
 # :closed_book: License
-
+---
 Released in 2021 :closed_book: License
 Este projeto está sob a licença [MIT](./LICENSE).
 ---
