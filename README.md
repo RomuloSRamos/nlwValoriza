@@ -96,13 +96,13 @@ Aqui estão algumas dicas:
 # :closed_book: License
 
 Released in 2021 :closed_book: License
-
+Este projeto está sob a licença [MIT](./LICENSE).
 ---
-Feito com 💜 por [Romulo S. Ramos](https://github.com/RomuloSRamos) guiado por danileao Especialista da Rocketseat 🚀.
+Feito com 💜 por [Romulo S. Ramos](https://github.com/RomuloSRamos) guiado por [danileao](https://github.com/danileao) Especialista da [Rocketseat](https://github.com/rocketseat-education) 🚀.
 [Vai lá e Participa da comunidade!](https://discord.gg/gKUVrzrPrU)
 
 ---
-Este projeto está sob a licença [MIT](./LICENSE).
+
 
 Dê uma ⭐️ se este projeto te ajudou!
     
