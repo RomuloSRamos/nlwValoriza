@@ -31,7 +31,9 @@ NLW/Together da @Rocketseat Trata-se de uma plataforma para promover o reconheci
 Este projeto foi feito usando as seguintes tecnologias:
 
 * [NodeJS](https://nodejs.org/en/)      
-* [Express](https://expressjs.com/)      
+* [Express](https://expressjs.com/)   
+* [Typescript](https://www.typescriptlang.org/)
+* [JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme)   
 
 # :rocket: Features
 ## To-Do
