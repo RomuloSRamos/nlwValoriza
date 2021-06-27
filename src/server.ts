@@ -5,7 +5,7 @@ import cors from "cors";
 import 'dotenv/config';
 
 import { router } from "./routes";
-import "./database";
+//import "./database";
 
 const app = express();
 app.use(cors());

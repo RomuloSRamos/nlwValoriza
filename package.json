@@ -2,7 +2,7 @@
   "name": "nlwValoriza",
   "version": "1.0.0",
   "description": "Projeto desenvolvido durante a NLW6",
-  "main": "server.ts",
+  "main": "index.js",
   "scripts": {
     "start": "node dist/src/server.js",
     "dev": "ts-node-dev src/server.ts",
