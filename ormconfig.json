@@ -1,10 +1,19 @@
 {
-    "type": "sqlite",
-    "database": "src/database/database.sqlite",
-    "migrations":["src/database/migrations/*.ts"],
-    "entities":["src/entities/*.ts"],
-    "cli":{
-        "migrationsDir":"src/database/migrations",
-        "entitiesDir":"src/entities"
+    "type": "postgres",
+    "port": 5432,
+    "host": "ec2-54-90-211-192.compute-1.amazonaws.com",
+    "user": "ozilyvpbrgmngp",
+    "password":  "427e7434be9eca93979aaa16ffbcca0621faa29b2a303ae7832c6d56f19cab48",
+    "database": "dclv38125baaas",
+    "autoSchemaSync": true,
+    "migrations": [
+        "src/database/migrations/*.ts"
+    ],
+    "entities": [
+        "src/entities/*.ts"
+    ],
+    "cli": {
+        "migrationsDir": "src/database/migrations",
+        "entitiesDir": "src/entities"
     }
 }

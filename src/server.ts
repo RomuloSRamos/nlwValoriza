@@ -2,6 +2,7 @@ import "reflect-metadata";
 import express, { Request, Response, NextFunction } from "express";
 import "express-async-errors";
 import cors from "cors";
+import 'dotenv/config';
 
 import { router } from "./routes";
 import "./database";
@@ -22,4 +23,4 @@ app.use((err: Error, request: Request, response: Response, next: NextFunction) =
   });
 });
 
-app.listen(3000, () => console.log("server is running"));
+app.listen(process.env.PORT || 3000, () => console.log("server is running"));
