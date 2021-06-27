@@ -4,6 +4,7 @@
   "description": "Projeto desenvolvido durante a NLW6",
   "main": "server.ts",
   "scripts": {
+    "start": "node dist/server.js",
     "dev": "ts-node-dev src/server.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
   },
