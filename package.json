@@ -4,10 +4,10 @@
   "description": "Projeto desenvolvido durante a NLW6",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/src/server.js",
+    "start": "node dist/server.js",
     "dev": "ts-node-dev src/server.ts",
-    "deploy": "git add . && git commit -m Heroku && git push heroku master",
-    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
+    "build": "tsc"
   },
   "keywords": [
     "nodejs",
