@@ -5,15 +5,15 @@ module.exports = {
     "synchronize": true,
     "dropSchema": false,
     "logging": true,
-    "ssl": {
-        "ca": process.env.SSL_CERT,
+    "ssl":  {
+        
         "rejectUnauthorized": false
     },
     "migrations": [
-        "dist/database/migrations/*.js"
+        "dist/database/migrations/**/*.js"
     ],
     "entities": [
-        "dist/entities/*.js"
+        "dist/entities/**/*.js"
     ],
     "cli": {
         "migrationsDir": "src/database/migrations",
